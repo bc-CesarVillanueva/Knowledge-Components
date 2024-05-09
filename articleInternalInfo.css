@@ -1,0 +1,22 @@
+/**
+ * Created by Alex Tsytsiura on February 14, 2021.
+ * BAP-14683
+ */
+
+.article-block {
+    margin-bottom: 60px;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'source_sans_proregular',Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.56;
+    background: #ffe7df;
+    box-shadow: 0 4px 10px 0 rgb(35 46 105 / 10%);
+}
+
+.section-label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(52, 49, 63);
+}

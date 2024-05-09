@@ -1,0 +1,19 @@
+<!--
+ - Created by Alex Tsytsiura on February 14, 2021.
+ - BAP-14683
+ -->
+<template>
+    <div class="article-block" >
+        <div class="slds-form-element__label section-label" >
+            <span class="test-id__field-label">{label.SectionTitleInternalInfo}</span>
+        </div>
+
+        <div if:false={isLoaded} class="slds-is-relative">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+
+        <template if:true={isLoaded}>
+            <lightning-formatted-rich-text value={internalInfo}></lightning-formatted-rich-text>
+        </template>
+    </div>
+</template>
